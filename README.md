@@ -1,7 +1,7 @@
 # escapeshell
 
 [![CI](https://github.com/SAMARTHJAISWAL/escapeshell/actions/workflows/ci.yml/badge.svg)](https://github.com/SAMARTHJAISWAL/escapeshell/actions/workflows/ci.yml)
-[![Play in your browser](https://img.shields.io/badge/play-in%20your%20browser-3fdc8a)](https://samarthjaiswal.github.io/escapeshell/)
+[![Play in your browser](https://img.shields.io/badge/play-in%20your%20browser-3fdc8a)](https://escapeshell.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **An escape room in your terminal.** You wake up inside an abandoned observatory computer. Ten doors are locked, and the only tools you have are real shell commands.
@@ -10,9 +10,9 @@
 npx github:SAMARTHJAISWAL/escapeshell
 ```
 
-Or **[play it in your browser](https://samarthjaiswal.github.io/escapeshell/)**. You need Node 18 or newer to play in the terminal. Either way, nothing touches your real files: the computer you're trapped in is make-believe.
+Or **[play it in your browser](https://escapeshell.vercel.app/)**. You need Node 18 or newer to play in the terminal. Either way, nothing touches your real files: the computer you're trapped in is make-believe.
 
-[![escapeshell: a terminal where the player greps a server log for a password and unlocks the door](web/og.png)](https://samarthjaiswal.github.io/escapeshell/)
+[![escapeshell: a terminal where the player greps a server log for a password and unlocks the door](web/og.png)](https://escapeshell.vercel.app/)
 
 ## How it plays
 

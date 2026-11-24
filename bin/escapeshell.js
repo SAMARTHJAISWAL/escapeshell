@@ -6,7 +6,7 @@ import { Game, shareText, VERSION } from "../src/game.js";
 import { ROOM_COUNT } from "../src/rooms.js";
 import { strip } from "../src/color.js";
 
-const SITE = "https://samarthjaiswal.github.io/escapeshell/";
+const SITE = "https://escapeshell.vercel.app/";
 
 const USAGE = `escapeshell: an escape room in your terminal
 
