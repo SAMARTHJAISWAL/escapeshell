@@ -1,0 +1,14 @@
+{
+  "name": "escapeshell",
+  "version": "0.1.0",
+  "description": "An escape room in your terminal. Ten locked doors, real shell commands, a new set of codes every game.",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "escapeshell": "bin/escapeshell.js" },
+  "files": ["bin", "src"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/shell.test.js test/game.test.js test/cli.test.js",
+    "build": "node scripts/build.mjs"
+  }
+}

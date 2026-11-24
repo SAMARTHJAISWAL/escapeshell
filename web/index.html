@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>escapeshell — an escape room in a terminal</title>
+  <meta name="description" content="You wake up inside an abandoned computer. Ten locked doors. Get out with real shell commands: ls, cat, find, grep, pipes, sort, uniq, cut, base64. New codes every game.">
+  <meta property="og:title" content="escapeshell — an escape room in a terminal">
+  <meta property="og:description" content="Ten locked doors. Real shell commands. New codes every game. Can you get out?">
+  <meta property="og:image" content="https://samarthjaiswal.github.io/escapeshell/og.png">
+  <meta property="og:url" content="https://samarthjaiswal.github.io/escapeshell/">
+  <link rel="canonical" href="https://samarthjaiswal.github.io/escapeshell/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./"><img src="favicon.svg" alt="" width="22" height="22">escapeshell</a>
+    <span class="tag">an escape room in a terminal</span>
+    <nav>
+      <button id="new" type="button">New game</button>
+      <a href="https://github.com/SAMARTHJAISWAL/escapeshell">GitHub</a>
+    </nav>
+  </header>
+  <main id="term" aria-label="Terminal">
+    <div class="inner">
+      <div id="screen" role="log" aria-live="polite"></div>
+      <form id="line" autocomplete="off">
+        <label for="cmd" id="prompt"></label>
+        <input id="cmd" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send" aria-label="Command">
+      </form>
+      <div class="share" id="share" hidden>
+        <button id="copy" type="button">Copy my result</button>
+        <a id="post" target="_blank" rel="noopener">Post it</a>
+        <button id="again" type="button">Play again</button>
+      </div>
+    </div>
+  </main>
+  <div class="keys" id="keys" aria-label="Extra keys">
+    <button data-k="tab" type="button">Tab</button>
+    <button data-k="|" type="button">|</button>
+    <button data-k="-" type="button">-</button>
+    <button data-k="/" type="button">/</button>
+    <button data-k="up" type="button">↑</button>
+    <button data-k="hint" type="button">hint</button>
+  </div>
+  <footer>Prefer a real terminal? <code>npx github:SAMARTHJAISWAL/escapeshell</code></footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
